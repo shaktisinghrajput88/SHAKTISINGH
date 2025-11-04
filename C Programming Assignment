@@ -1,0 +1,16 @@
+Q-1    What do you mean by arrays give one example of array and how you can declared an arreay ?
+ANS - #include <stdio.h>
+
+int main() {
+    int numbers[] = {15, 25, 35, 45, 55};  // Declaration and initialization of an array
+
+    // Accessing elements
+    printf("First element: %d\n", numbers[0]); // Index starts from 0
+    printf("Third element: %d\n", numbers[3]);
+
+    return 0;
+}
+
+OUTPUT
+First element: 15
+Third element: 45
